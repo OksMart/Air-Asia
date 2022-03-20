@@ -1,0 +1,53 @@
+.messengers__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+}
+
+.messengers__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.messengers__item:last-child {
+   margin-right: 0;
+}
+
+.messengers__footer {
+    margin-right: 60px;
+}
+
+.messengers__item--icon--tm .messengers__link {
+    background-image: url(../../img/messengers/telegram.png);
+}
+
+.messengers__item--icon--tm .messengers__link:hover {
+    background-image: url(../../img/messengers/t2.png);
+}
+
+.messengers__item--icon--vk .messengers__link {
+    background-image: url(../../img/messengers/vk.png);
+}
+
+.messengers__item--icon--vk .messengers__link:hover {
+    background-image: url(../../img/messengers/vk2.png);
+}
+
+.messengers__item--icon--f .messengers__link {
+    background-image: url(../../img/messengers/f.png);
+}
+
+.messengers__item--icon--f .messengers__link:hover {
+    background-image: url(../../img/messengers/f2.png);
+}
+
+.messengers__item--icon--inst .messengers__link {
+    background-image: url(../../img/messengers/in.png);
+}
+
+.messengers__item--icon--inst .messengers__link:hover {
+    background-image: url(../../img/messengers/in2.png);
+}

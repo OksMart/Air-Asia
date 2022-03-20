@@ -1,0 +1,42 @@
+.btn-main {
+    background: #F5170E;
+    border-radius: 35px;
+    font-size: 14px;
+    padding: 17px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.btn {
+    border: 1px solid #F5170E;
+    border-radius: 35px;
+    font-size: 14px;
+    padding: 16px 29px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.btn--white {
+    background: #fff;
+    color: #F5170E;
+}
+
+.btn--white:hover {
+    background: #F5170E;
+    color: #fff;
+}
+
+.btn--red {
+    background: #F5170E;
+    color: #fff;
+}
+
+.btn--red:hover {
+    background: #fff;
+    color: #F5170E;
+}

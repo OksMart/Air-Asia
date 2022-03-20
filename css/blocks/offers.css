@@ -1,0 +1,102 @@
+.offers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offers__item {
+    background: #ffffff;
+    min-height: 448px;
+    /* margin-right: 22px; */
+    /*max-width: 362px;*/
+    width: calc(100% / 3 - 14px); /* 33.3% / 100%;*/
+    border-radius: 5px;
+}
+
+.offers__item:last-child {
+    margin-right: 0;
+}
+
+.offers__foto {
+    height: 143px;
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 0;
+    display: block;
+}
+
+.offers__content {
+    padding: 33px 22px 26px;
+}
+
+.offers__title {
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+/* .offers__subtitle-sub {
+    padding: 0 0 0 6px;
+    margin-bottom: 18px; 
+    display: flex;
+    align-items: center;
+    gap: 28px;
+} */
+
+.offers__services {
+    display: inline; 
+}
+
+.offers__service {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    font-size: 16px;
+    color: #666666;
+    /* display: inline; */
+    /* vertical-align: baseline; */
+    /* margin-right: 25px; */
+    /* width: 126px; */
+}
+
+.offers__service:last-child {
+    margin-right: 0;
+}
+
+.icon {
+    display: flex;
+    gap: 9px;
+}
+
+.icon::before {
+    content: "";
+    display: block;
+    height: 26px;
+    width: 100%;
+    flex-shrink: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon_type_calendar::before {
+    width: 26px;
+    background-image: url(../../img/icons/calendar.png);
+}
+
+.icon_type_meal::before {
+    width: 36px;
+    background-image: url(../../img/icons/meal.png);
+}
+
+
+/* .offers__specification {
+    margin-left: 6px;
+    display: inline;
+    vertical-align: top;
+} */
+
+.offers__text {
+    font-size: 14px;
+    color: #303030;
+    margin-bottom: 27px;
+}

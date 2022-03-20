@@ -1,0 +1,22 @@
+.section {
+    margin-bottom: 130px;
+    position: relative;
+}
+
+.section__title--fire::after {
+    content: "";
+    width: 21px;
+    height: 28px;
+    display: block;
+    background: url("../../img/icons/flame.png") center center / cover no-repeat;
+ }
+
+.section__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 55px;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
