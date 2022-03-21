@@ -6,9 +6,7 @@
 .offers__item {
     background: #ffffff;
     min-height: 448px;
-    /* margin-right: 22px; */
-    /*max-width: 362px;*/
-    width: calc(100% / 3 - 14px); /* 33.3% / 100%;*/
+    width: calc(100% / 3 - 14px); 
     border-radius: 5px;
 }
 
@@ -35,28 +33,16 @@
     margin-bottom: 23px;
 }
 
-/* .offers__subtitle-sub {
-    padding: 0 0 0 6px;
-    margin-bottom: 18px; 
-    display: flex;
-    align-items: center;
-    gap: 28px;
-} */
-
 .offers__services {
-    display: inline; 
+    display: flex;
+    margin-bottom: 24px;
 }
 
 .offers__service {
-    display: flex;
-    align-items: center;
-    gap: 28px;
     font-size: 16px;
     color: #666666;
-    /* display: inline; */
-    /* vertical-align: baseline; */
-    /* margin-right: 25px; */
-    /* width: 126px; */
+    vertical-align: baseline; 
+    margin-right: 25px; 
 }
 
 .offers__service:last-child {
@@ -65,7 +51,7 @@
 
 .icon {
     display: flex;
-    gap: 9px;
+    gap: 15px;
 }
 
 .icon::before {
@@ -87,13 +73,6 @@
     width: 36px;
     background-image: url(../../img/icons/meal.png);
 }
-
-
-/* .offers__specification {
-    margin-left: 6px;
-    display: inline;
-    vertical-align: top;
-} */
 
 .offers__text {
     font-size: 14px;

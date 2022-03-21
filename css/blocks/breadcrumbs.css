@@ -1,11 +1,9 @@
-.breadcrumbs {
+.breadcrumbs__list {
     display: flex;
-    align-items: center;
 }
 
 .breadcrunbs__item {
-    display: flex;
-    align-items: center;
+    margin-right: 3px;
 }
 
 .breadcrunbs__item--active .breadcrumbs__link {
@@ -19,9 +17,39 @@
 
 .breadcrunbs__item:last-child::after {
     display: none;
+    margin-right: 0;
 }
 
 .breadcrumbs__link {
     color: #9A9A9A;
     font-size: 14px;
 }
+
+/* .flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: 1px solid silver;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  
+  line-height: 40px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+} */
+

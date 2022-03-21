@@ -5,22 +5,22 @@
 .about::before {
     content: "";
     display: block;
-    max-width: 490px;
-    min-height: 505px;
+    min-width: 490px;
+    height: 505px; 
     background: url("../../img/gates.png") center center / cover no-repeat;
     border-radius: 5px;
 }
 
 .about__content {
-    display: block;
+    display: block;  
     background: url("../../img/mountains.png") center center / cover no-repeat;
     padding: 70px 190px 100px 80px;
     border-radius: 5px;
     max-width: 785px;
     margin-top: 95px;
     margin-left: -140px;
-    min-height: 455px;
-    line-height: 1.5;
+    min-height: 455px; 
+    line-height: 1.5;  
 }
 
 .about__title {

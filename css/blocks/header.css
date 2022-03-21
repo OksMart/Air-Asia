@@ -14,3 +14,7 @@
 .header__col--align--right{
     justify-content: flex-end;
 }
+
+.header__services {
+    margin-bottom: 0;
+}

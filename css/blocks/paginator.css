@@ -40,3 +40,8 @@
 .paginator--services {
     color: #000000;
 }
+
+.paginator__link--services:hover {
+    background: #F5170E;
+    color: #fff;
+}

@@ -1,14 +1,16 @@
-.inner-section {
-    background: #fff;
+.partners {
+    background: #F4F5F5;
     color: #1A1B1E;
     padding: 98px 0;
 }
 
-.inner-section--bg--grey {
-    background: #F4F5F5;
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.inner-section__title {
+.partners__title {
     font-size: 55px;
     font-weight: bold;
     margin-bottom: 50px;
@@ -22,12 +24,6 @@
     align-items: center;
     justify-content: center;
     filter: grayscale(100%);
-}
-
-.partners__item {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 65px;
 }
 
 .partners__item:nth-child(4n) {
