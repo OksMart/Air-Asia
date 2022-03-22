@@ -1,15 +1,14 @@
 .news {
     margin-bottom: 53px;
     display: flex;
-    justify-content: space-between;
+    gap: 25px; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
 }
 
 .news__item {
-    /* width: 557px; */
     height: 394px;
-    /* vertical-align: top; */
-    margin-right: 2%;
-    flex: 1;
+    flex-basis: calc(50%-75px); 
 }
 
 .new {
@@ -17,9 +16,9 @@
     overflow: hidden;
 }
 
-.news__item:last-child {
+/* .news__item:last-child {
     margin-right: 0;
-}
+} */
 
 .new__image {
     display: block;

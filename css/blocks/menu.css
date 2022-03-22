@@ -19,3 +19,7 @@
 .menulink:hover {
     color: #DA0100;
 }
+
+.menulink__active {
+    color: #DA0100;    
+}
