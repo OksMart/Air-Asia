@@ -37,6 +37,7 @@
 
 .feedback__input:focus {
     border: 1px solid red; 
+    transition: 0.3s;
 }
 
 .feedback__controls {
