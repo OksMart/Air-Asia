@@ -1,6 +1,3 @@
-.menu {
- }
-
 .menu__item {
     display: inline-block;
     vertical-align: middle;
@@ -18,8 +15,10 @@
 
 .menulink:hover {
     color: #DA0100;
+    transition: 0.3s;
 }
 
 .menulink__active {
-    color: #DA0100;    
+    color: #DA0100;  
+    transition: 0.3s;  
 }

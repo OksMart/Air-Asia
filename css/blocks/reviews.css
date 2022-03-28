@@ -52,6 +52,7 @@
 .review__person:hover {
     color: #2E77A4;
     text-decoration: underline;
+    transition: 0.2s;
 }
 
 .review__person::after {

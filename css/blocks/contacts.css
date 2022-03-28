@@ -19,3 +19,12 @@
     color: #9A9A9A;
     font-size: 11px;
 }
+
+.contacts__dropdown-title:hover {
+    cursor: pointer;
+
+}
+
+.contacts__dropdown {
+    display: none;
+}
