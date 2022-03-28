@@ -1,6 +1,7 @@
 @import url(./layout/normalize.css);
 @import url(./layout/base.css);
 
+@import url(./blocks/start.css);
 @import url(./blocks/header.css);
 @import url(./blocks/logo.css);
 @import url(./blocks/menu.css);
@@ -20,3 +21,7 @@
 @import url(./blocks/top-line.css);
 @import url(./blocks/breadcrumbs.css);
 
+@import url(./blocks/reviews.css);
+@import url(./blocks/screen.css);
+@import url(./blocks/feedback.css);
+@import url(./blocks/tag.css);
