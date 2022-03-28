@@ -21,14 +21,174 @@
 }
 
 .messengers__item--icon--tm .messengers__link {
-    background-image: url(../../img/messengers/telegram.png);
+    position: relative;
+}
+
+.messengers__item--icon--tm .messengers__link::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url("../../img/messengers/sprite.png") -290px -10px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.messengers__item--icon--tm .messengers__link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url("../../img/messengers/sprite.png") -234px -10px;
+    transition: .3s;
+}
+
+.messengers__item--icon--tm .messengers__link:hover::after {
+    /* background-position: -290px -10px; */
+    opacity: 0;
+}
+
+.messengers__item--icon--tm .messengers__link:hover::before {
+    opacity: 1;
+}
+
+
+.messengers__item--icon--vk .messengers__link {
+    position: relative;
+}
+
+.messengers__item--icon--vk .messengers__link::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url("../../img/messengers/sprite.png") -402px -10px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.messengers__item--icon--vk .messengers__link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url("../../img/messengers/sprite.png") -346px -10px;
+    transition: .3s;
+}
+
+.messengers__item--icon--vk .messengers__link:hover::after {
+    opacity: 0;
+}
+
+.messengers__item--icon--vk .messengers__link:hover::before {
+    opacity: 1;
+}
+
+
+.messengers__item--icon--f .messengers__link {
+    position: relative;
+}
+
+.messengers__item--icon--f .messengers__link::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url("../../img/messengers/sprite.png") -66px -10px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.messengers__item--icon--f .messengers__link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url("../../img/messengers/sprite.png") -10px -10px;
+    transition: .3s;
+}
+
+.messengers__item--icon--f .messengers__link:hover::after {
+    opacity: 0;
+}
+
+.messengers__item--icon--f .messengers__link:hover::before {
+    opacity: 1;
+}
+
+
+.messengers__item--icon--inst .messengers__link {
+    position: relative;
+}
+
+.messengers__item--icon--inst .messengers__link::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url("../../img/messengers/sprite.png") -178px -10px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.messengers__item--icon--inst .messengers__link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url("../../img/messengers/sprite.png") -122px -10px;
+    transition: .3s;
+}
+
+.messengers__item--icon--inst .messengers__link:hover::after {
+    opacity: 0;
+}
+
+.messengers__item--icon--inst .messengers__link:hover::before {
+    opacity: 1;
+}
+
+/* .messengers__item--icon--tm .messengers__link {
+    background-image: url(../../img/messengers/t.png);
 }
 
 .messengers__item--icon--tm .messengers__link:hover {
     background-image: url(../../img/messengers/t2.png);
-}
+} */
 
-.messengers__item--icon--vk .messengers__link {
+/*.messengers__item--icon--vk .messengers__link {
     background-image: url(../../img/messengers/vk.png);
 }
 
@@ -50,4 +210,4 @@
 
 .messengers__item--icon--inst .messengers__link:hover {
     background-image: url(../../img/messengers/in2.png);
-}
+} */

@@ -1,0 +1,23 @@
+.screen {
+    background: url("../../img/reviews/Rectangle.png") center center / cover no-repeat;
+    color: #FFFFFF;
+    min-height: 340px;
+}
+
+.screen__title {
+    display: flex;
+    font-size: 48px;
+    font-weight: bold;
+    column-gap: 25px; 
+    line-height: 1.1;
+    align-items: center; 
+    min-width: 595px; 
+}
+
+.screen__title::after {
+    content: "";
+    display: block;
+    background: url("../../img/reviews/couple.png") center bottom / cover no-repeat;
+    min-width: 487px;
+    min-height: 340px;
+}

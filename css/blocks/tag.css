@@ -1,0 +1,9 @@
+.tag {
+    color: #303030;
+    border-radius: 50px;
+    padding: 9px 15px;
+    font-size: 13px;
+    display: inline-flex;
+    justify-content: flex-start; 
+}
+

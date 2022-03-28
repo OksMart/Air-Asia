@@ -7,6 +7,7 @@
     text-transform: uppercase;
     display: inline-block;
     font-weight: bold;
+    color: #fff;
 }
 
 .btn {
@@ -39,4 +40,13 @@
 .btn--red:hover {
     background: #fff;
     color: #F5170E;
+}
+
+.btn-main--color--black {
+    background: #8E8E8E;
+    margin-right: 17px;
+}
+
+.btn-main--color--black:hover {
+    background: #2B2b2b;
 }

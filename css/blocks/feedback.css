@@ -1,0 +1,82 @@
+.feedback {
+    background: #F4F5F5;
+    color: #1A1B1E;
+    min-height: 363px;
+}
+
+.feedback__title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.4;
+    padding-top: 62px;
+    margin-bottom: 57px;
+}
+
+.feedback__row {
+    display: flex;
+    justify-content: space-between;
+    gap: 26px;
+    margin-bottom: 28px;
+}
+
+.feedback__input {
+    border: 1px solid #FFFFFF; 
+    border-radius: 5px;
+    width: 557px;
+    height: 65px;
+    font-size: 18px;
+    color: #666666;
+    padding: 30px 20px;
+}
+
+.feedback__input--textarea {
+    height: 235px;
+    padding: 30px;
+    flex: 1;
+}
+
+.feedback__input:focus {
+    border: 1px solid red; 
+}
+
+.feedback__controls {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.feedback__controls-title {
+    width: 40%;
+    font-size: 18px;
+}
+
+.controls {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.controls__item {
+    margin-bottom: 9px;
+}
+
+.controls__elem {
+    cursor: pointer;
+}
+
+.controls__tag {
+    background-color: #E7E7E7;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+    background-color: #B9EAE4;
+}
+
+.controls__checkbox {
+    display: none;
+}
+
+.feedback__btns {
+    display: flex;
+    justify-content: flex-end;
+}
