@@ -9,22 +9,45 @@
     line-height: 1.2;
 }
 
+.contacts__text {
+    color: #9A9A9A;
+    font-size: 11px;
+}
+
+.contacts__dropdown {
+    position: relative;
+}
+
+.contacts__dropdown:hover .dropdown {
+    transition: 0.3s;
+    display: block;
+}
+
+.contacts__dropdown:hover .contacts__dropdown-title {
+    cursor: pointer;
+    color: #fff;
+}
+
 .contacts__dropdown-title {
     font-size: 13px;
     text-decoration: underline;
     color: #98A4A8;
 }
 
-.contacts__text {
-    color: #9A9A9A;
-    font-size: 11px;
-}
-
-.contacts__dropdown-title:hover {
-    cursor: pointer;
-
-}
-
-.contacts__dropdown {
+.dropdown {
+    position: absolute;
+    padding: 20px 17px;
     display: none;
+    opacity: 0.8;
+    background: #CDD1D2;
+    color: #1E1F20;
+    font-size: 13px;
+    border-radius: 9px;
+    font-weight: bold;
+    text-align: start;
 }
+
+.dropdown--hours {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+
